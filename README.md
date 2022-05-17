@@ -16,7 +16,7 @@ Then build and publish the site:
 npm run build
 npm run publish
 ```
-This commands assumes that files are in directory `./out`.  If needed it's
+These commands assume that the files are in directory `./out`.  If needed it's
 possible to specify another location using `-d` option.
 ```
 npm run build -- -d ../other-dir
