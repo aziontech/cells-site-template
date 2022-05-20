@@ -13,7 +13,10 @@ addEventListener('fetch', event => {
 
 async function handleEvent(event) {
   try {
-    let options = {}
+    let options = {
+      ASSET_NAMESPACE: __STATIC_CONTENT,
+      ASSET_MANIFEST: __STATIC_CONTENT_MANIFEST
+    }
     return await getAssetFromKV(event, options)
   } catch (e) {
     if (!DEBUG) {
