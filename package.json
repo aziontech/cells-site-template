@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "flareact4azion build -s",
-    "publish": "flareact4azion publish"
+    "build": "azion-framework-adapter build -s",
+    "publish": "azion-framework-adapter publish"
   },
   "author": "Azion",
   "license": "MIT",
