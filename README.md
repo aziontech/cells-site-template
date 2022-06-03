@@ -22,3 +22,9 @@ possible to specify another location using `-d` option.
 npm run build -- -d ../other-dir
 npm run publish -- -d ../other-dir
 ```
+
+## Quick links
+
+* [Contributing](CONTRIBUTING.md)
+* [Code of Conduct](CODE_OF_CONDUCT.md)
+* [Individual Contributor License Agreement (CLA)](CLA.md)
