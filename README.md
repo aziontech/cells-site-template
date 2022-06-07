@@ -1,9 +1,13 @@
 # cells-site-template
 
-This repository contains a edge-function template to be used as a starting
-point to host static sites on Azion Edge Network. The static assets of the site
-will be obtained from AWS S3 backed Key Value Storage as configured on
-azion.json config file.
+This repository contains a edge-function template to be used as a starting point to host static sites on Azion Edge Network. The static assets of the site will be obtained from AWS S3 backed Key Value Storage as configured on azion.json config file.
+
+## Quick links
+
+* [License](#License)
+* [Contributing](CONTRIBUTING.md)
+* [Code of Conduct](CODE_OF_CONDUCT.md)
+* [Individual Contributor License Agreement (CLA)](CLA.md)
 
 ## Step-by-step
 
@@ -23,8 +27,6 @@ npm run build -- -d ../other-dir
 npm run publish -- -d ../other-dir
 ```
 
-## Quick links
+## License
 
-* [Contributing](CONTRIBUTING.md)
-* [Code of Conduct](CODE_OF_CONDUCT.md)
-* [Individual Contributor License Agreement (CLA)](CLA.md)
+This project is licensed under the terms of the [MIT](LICENSE) license.
